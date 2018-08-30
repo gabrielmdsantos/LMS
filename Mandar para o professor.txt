@@ -1,0 +1,12 @@
+Create table Usuario (
+	ID int identity not null,
+	Login varchar(30) not null,
+	senha varchar(30) not null,
+	DtExpiracao date not null ,
+
+	CONSTRAINT PK_Usuario primary key (ID),
+	
+	CONSTRAINT UQ_login unique (Login),
+
+	constraint df_dt default ('1900/01/01') for dtExpiracao
+);
