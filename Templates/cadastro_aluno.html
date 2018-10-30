@@ -10,6 +10,7 @@
 </head>
 <body class="page">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img class="img2" src="img/logo.png"/>
                 <a class="navbar-brand" href="#">FACULDADE IMPACTA</a>
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,65 +49,52 @@
                 </div>
               </nav>
     <div class="ex">
-    
-    <footer class="cabe2">Copyrigth &copy;2018 - Todos os Direitos Reservados</footer>
     </div>
     <div>
-        <h2 class="titulo">Cadastro Aluno</h2>
-<<<<<<< HEAD
-        <pre><h3 class="titulo2">Dados Pessoais:   
-           <!--COLOQUEI NAME NO FORM -->                                                                      </h3></pre>
-        <form method="post" action="">
-=======
-        <pre><h3 class="titulo2">Dados Pessoais:                                                                    </h3></pre>
+        <h2 class="titulo">Cadastro de Aluno</h2>
+        <h3 class="titulo2">Dados Pessoais:</h3>
            <!--COLOQUEI NAME NO FORM -->                                                                      
-        <form name="f1">
->>>>>>> 80e37f0aa43c291c56bbc34c732a44bc9d9d6cfc
+        <form><!--name="f1"-->
            
         <table>
         <tr>
-            <td><p class= "campos">Nome: *</p></td>
-<<<<<<< HEAD
-            <td><input type="text" id="nome" x-moz-errormessage="Ops. Não esqueça de preencher este campo." class="caixa_texto" maxlength="50" ></td>
-=======
+            <td><p class= "campos">Nome: <b class="aste">*</b></p></td>
             <td><input type="text" id="nome" class="caixa_texto" maxlength="50" required></td>
->>>>>>> 80e37f0aa43c291c56bbc34c732a44bc9d9d6cfc
+
         </tr>
         <tr>    
-            <td><p class="campos">Sexo: *</p></td>
-            <td><p class="campos"><input type="radio" name="sexo" value="masculino" id="M" checked required/>Masculino<input type="radio" name="sexo" value="feminino" id="F">Feminino</p></td>
+            <td><p class="campos">Sexo: <b class="aste">*</b></p></td>
+            <td><p class="campos"><input type="radio" name="sexo" value="masculino" id="M" checked required/>Masculino&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sexo" value="feminino" id="F">Feminino</p></td>
         </tr>
         <tr>
-            <td><pre><p class="campos">Data de Nascimento: *&nbsp;&nbsp;&nbsp;&nbsp;</p></pre></td>
+            <td><pre><p class="campos">Data de Nascimento: <b class="aste">*</b>&nbsp;&nbsp;&nbsp;&nbsp;</p></pre></td>
             <td><input type="date" name="dtnascimento" id="data" class="caixa_data" required></td>
         </tr>
         <tr>
-            <td><p class="campos">Endereço: *</p></td>
+            <td><p class="campos">Endereço: <b class="aste">*</b></p></td>
             <td><input type="text" id="endereco" class="caixa_texto" maxlength="150" required></td>
         </tr>
         <tr>
-            <td><p class ="campos">Telefone: *</p></td>
-            <td><input type="tel" id="tel" name="telefone" placeholder="(DDD) xxxx-xxxx" class="caixa_tel" required/></td>
+            <td><p class ="campos">Telefone: <b class="aste">*</b></p></td>
+            <td><input type="tel" id="tel" name="telefone" pattern="^\d{2} \d{4} \d{4}$" placeholder="(DDD) xxxx xxxx" class="caixa_tel" required='' title="Telefone Exigido - EX: xx xxxx xxxx"/></td>
         </tr>
         <tr>
           <!--ADCIONEI A FUNÇÃO USANDO ONBLUR QUE A GENTE ESTAVA VENDO HOJE NA SALA-->
-            <td><p class="campos">E-Mail: *</p></td>
-<<<<<<< HEAD
-            <td><input type="text" id="email" name="email" class="caixa_texto" onblur="validacaoEmail(f1.email)" maxlength="100" required</td>
-=======
-            <td><input type="email" id="email" name="email" class="caixa_texto" maxlength="100" onblur="validacaoEmail(f1.email)" required></td>
->>>>>>> 80e37f0aa43c291c56bbc34c732a44bc9d9d6cfc
+            <td><p class="campos">E-Mail: <b class="aste">*</b></p></td>
+            <td><input type="text" id="email" name="email" class="caixa_texto" maxlength="100" required></td><!--onblur="validacaoEmail(f1.email)"-->
+
             <div id="msgemail"></div>
              <!--SCRIPST BOOTSTRAP-->
         </tr>
-        </table>
-        <input type="submit" value="Enviar" class="botao1">
+        </table><br/><br/>
+        <input type="submit" value="Cadastrar" class="botao1">
         <input type="reset" value="Apagar Campos" class="botao2">
         <input type="button" value="Voltar" class="botao3" onClick="javascript:window.history.go(-1)">
-        </form>   
+        </form>
     </div><br/> 
     <div class="linha">
     </div><br/><br/><br/><br/><br/><br/>
+    <footer><p class="copy2">Copyrigth &copy;2018 - Todos os Direitos Reservados</p></footer>
        <!--SCRIPST BOOTSTRAP-->
        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

@@ -37,12 +37,10 @@ if ((usuario.length >=1) &&
     (dominio.search(".")!=-1) &&      
     (dominio.indexOf(".") >=1)&& 
     (dominio.lastIndexOf(".") < dominio.length - 1)) {
-<<<<<<< HEAD
 document.getElementById("msgemail").innerHTML="E-mail válido";
-=======
 document.getElementById("msgemail").innerHTML="<font color='green'>E-mail válido</font>";
 alert("E-mail valido");
->>>>>>> 80e37f0aa43c291c56bbc34c732a44bc9d9d6cfc
+
 }
 else{
 document.getElementById("msgemail").innerHTML="<font color='red'>E-mail inválido </font>";

@@ -1,31 +1,3 @@
-.cabe1{
-    background: #2E2E2E;
-    text-align: center;
-    color:white;
-    font-weight:bolder;
-    font-size: 40px;
-    margin-top: -11px;
-    margin-right: -10px;
-    margin-left: -10px;
-    border: 20px solid #2E2E2E;
-}
-
-.cabe2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    bottom: 0px;
-    background: black;
-    text-align: center;
-    color:white;
-    font-weight:bolder;
-    font-size: 15px;
-    position: fixed;
-    width: 100%;
-    margin-top: -11px;
-    margin-right: 10px;
-    margin-left: -25px;
-    border: 20px solid black;
-}
-
 .page{
     background: black;
 }
@@ -44,7 +16,8 @@
     font-weight: lighter;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
-    text-decoration: underline;
+    border-bottom: 1px solid white;
+    width: 670px;
 }
 
 div.ex{
@@ -88,31 +61,29 @@ div.ex{
 }
 
 .linha{
-    border-bottom: 2px solid white;
-    margin-bottom: -500;
+    margin-top: -50px;
+    border-bottom: 1px solid white;
 }
 
 .linha2{
-    border-right: 2px solid white;
+    border-right: 1px solid white;
     margin-right: 690px ;
 }
 
 .botao1{
     float: right;
-    margin-right: 600px; 
-    margin-top: 30px;
+    margin-right: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 17px;
     color: black;
-    background-color:springgreen;
+    background-color: lime;
     border-color: #004d00; 
 }
 
 .botao2{
     float: right;
-    margin-right: -220px;
-    margin-top: 30px;
+    margin-right: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 16px;
@@ -123,8 +94,7 @@ div.ex{
 
 .botao3{
     float: right;
-    margin-right: -299px;
-    margin-top: 30px;
+    margin-right: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 16px;
@@ -135,8 +105,8 @@ div.ex{
 
 .botao1-1{
     float: right;
-    margin-right: -97px; 
-    margin-top: 30px;
+    margin-right: -650px; 
+    margin-top: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 17px;
@@ -147,8 +117,8 @@ div.ex{
 
 .botao2-2{
     float: right;
-    margin-right: -250px;
-    margin-top: 30px;
+    margin-right: -543px;
+    margin-top: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 16px;
@@ -159,8 +129,8 @@ div.ex{
 
 .botao3-3{
     float: right;
-    margin-right: -331px;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-right: -393px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 16px;
@@ -171,12 +141,19 @@ div.ex{
 
 .esquerda{
     float: right;
-    margin-top: -333px;
-    margin-right: -605px;
+    margin-top: -295px;
+    margin-right: -630px;
+}
+
+.esquerda2{
+    float: right;
+    margin-top: -295px;
+    margin-right: -570px;
 }
 
 .caixa_texto2{
     border-radius: 7px;
+    margin-top: 7px;
     border: 1px solid white;
     border-right: 500px;
     padding: 10px 0px; 
@@ -188,7 +165,7 @@ div.ex{
     border-radius: 7px;
     border: 1px solid white;
     border-right: 500px;
-    padding: 10px 0px; 
+    padding: 14px 0px; 
     width: 70px;
     height: 5px;
 }
@@ -208,7 +185,7 @@ div.ex{
 .imglinks{
     width: 39px;
     float: right;
-    margin-left: 10px;
+    margin-left: 470px;
 }
 
 .imglinks1{
@@ -226,7 +203,7 @@ div.ex{
 .imglinks3{
     width: 39px;
     float: right;
-    margin-left: 470px;
+    margin-left: 10px;
 }
 
 .per{
@@ -255,5 +232,49 @@ div.ex{
 
  .copy{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 50px;
+ }
+
+.copy2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+ .texto_contato{
+    text-align: left;
+    float: right;
+    margin-right: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .impacta2{
+    width: 300px;
+    float: left;
+    margin-left: 50px;
+ }
+
+ .siga{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: left;
+     margin-left: 70px;
+ }
+ 
+ .alinhamento{
+     float: left;
+     margin-left: -280px;
+     margin-top: -40px;
+ }
+
+ .aste{
+     color: red;
+ }
+
+ .copy2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: -50px;
  }
