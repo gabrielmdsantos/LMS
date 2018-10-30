@@ -1,0 +1,259 @@
+.cabe1{
+    background: #2E2E2E;
+    text-align: center;
+    color:white;
+    font-weight:bolder;
+    font-size: 40px;
+    margin-top: -11px;
+    margin-right: -10px;
+    margin-left: -10px;
+    border: 20px solid #2E2E2E;
+}
+
+.cabe2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    bottom: 0px;
+    background: black;
+    text-align: center;
+    color:white;
+    font-weight:bolder;
+    font-size: 15px;
+    position: fixed;
+    width: 100%;
+    margin-top: -11px;
+    margin-right: 10px;
+    margin-left: -25px;
+    border: 20px solid black;
+}
+
+.page{
+    background: black;
+}
+
+.titulo{
+    font-size: 24px;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.titulo2{
+    font-size: 24px;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    text-decoration: underline;
+}
+
+div.ex{
+    max-width: auto;
+    margin: auto;
+    border: 3px solid black;
+}
+
+.campos{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: left;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    margin: 10px;
+}
+
+.caixa_texto{
+    border-radius: 7px;
+    border: 1px solid white;
+    border-right: 500px;
+    padding: 15px 0px; 
+    width: 350px;
+    height: 5px;
+}
+
+.caixa_data{
+    border-radius: 7px;
+    border: 1px solid white;
+    border-right: 500px;
+    font-weight: lighter;
+    padding: 2px;
+}
+
+.caixa_tel{
+    border-radius: 7px;
+    border: 1px solid white;
+    border-right: 500px;
+    padding: 3px; 
+    width: 130px;
+}
+
+.linha{
+    border-bottom: 2px solid white;
+    margin-bottom: -500;
+}
+
+.linha2{
+    border-right: 2px solid white;
+    margin-right: 690px ;
+}
+
+.botao1{
+    float: right;
+    margin-right: 600px; 
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    background-color:springgreen;
+    border-color: #004d00; 
+}
+
+.botao2{
+    float: right;
+    margin-right: -220px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    background-color: yellow;
+    border-color: #999900;
+}
+
+.botao3{
+    float: right;
+    margin-right: -299px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    background-color: red;
+    border-color: #800000;
+}
+
+.botao1-1{
+    float: right;
+    margin-right: -97px; 
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    background-color: #33cc33;
+    border-color: #004d00; 
+}
+
+.botao2-2{
+    float: right;
+    margin-right: -250px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    background-color: #b3b300;
+    border-color: #999900;
+}
+
+.botao3-3{
+    float: right;
+    margin-right: -331px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    background-color: red;
+    border-color: #800000;
+}
+
+.esquerda{
+    float: right;
+    margin-top: -333px;
+    margin-right: -605px;
+}
+
+.caixa_texto2{
+    border-radius: 7px;
+    border: 1px solid white;
+    border-right: 500px;
+    padding: 10px 0px; 
+    width: 350px;
+    height: 90px;
+}
+
+.caixa_texto3{
+    border-radius: 7px;
+    border: 1px solid white;
+    border-right: 500px;
+    padding: 10px 0px; 
+    width: 70px;
+    height: 5px;
+}
+
+.img1{
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+}
+
+.img2{
+    width: 38px;
+    margin-right: 7px;
+    border-radius: 10px;
+}
+
+.imglinks{
+    width: 39px;
+    float: right;
+    margin-left: 10px;
+}
+
+.imglinks1{
+    width: 41px;
+    float: right;
+    margin-left: 10px;
+}
+
+.imglinks2{
+    width: 39px;
+    float: right;
+    margin-left: 10px;
+}
+
+.imglinks3{
+    width: 39px;
+    float: right;
+    margin-left: 470px;
+}
+
+.per{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: gold;
+    text-align: center;
+}
+ .per1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px; 
+ }
+
+ .caixa_preta{
+    border: 1px solid #2E2E2E;
+    padding: 80px;
+    background-color: #2E2E2E;
+ } 
+
+ .imggold{
+     width: 100px;
+ }
+
+ .copy{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+ }
