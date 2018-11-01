@@ -1,0 +1,32 @@
+
+
+
+.rodape {
+    border-top: 1px solid white; 
+    color: aliceblue;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    position: solid;
+    
+    }
+.conteiner{
+    position: relative;
+
+    display: -webkit-box;
+    display: flex;
+  
+    max-width: 64rem;
+    min-height: 20rem;
+    margin: auto;
+  
+    -webkit-box-pack: center;
+    justify-content: center;
+    
+
+}
+.img1 {
+    width: 100%;
+    height: 100%;
+  }
